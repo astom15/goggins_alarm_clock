@@ -20,13 +20,17 @@
 	}
 
 	main::-webkit-scrollbar {
-  display: none;
+  	display: none;
 	}
 
 	.soundboard {
-		flex:1;
+		flex: 1;
 		width: 100%;
 		margin: 10px 20px;
+		flex-wrap: wrap;
+		display: flex;
+		place-content: center;
+		max-width: 960px;
 	}
 
 	.stopAudio {
@@ -54,8 +58,24 @@
 
 	<div class='soundboard'> 
 		<AudioPlayer 
-			title="Look at yourself."
-			src="../assets/LookAtYourself/sounds.mp3"/>
+			title="Look At Yourself."
+			src="../assets/sounds/Look At Yourself.mp3"/>
+		<AudioPlayer 
+			title="No Days Off."
+			src="../assets/sounds/No Days Off.mp3"/>
+		<AudioPlayer 
+			title="Embrace The Hate."
+			src="../assets/sounds/Haters.mp3"/>
+		<AudioPlayer 
+			title="Show Up Every Day."
+			src="../assets/sounds/Show Up Every Day.mp3"/>
+		<AudioPlayer 
+			title="You're Never Done."
+			src="../assets/sounds/Never Done.mp3"/>
+		<AudioPlayer 
+			title="Dog Mentality."
+			src="../assets/sounds/Dog Mentality.mp3"/>
 	</div>
 	
 </main>
+

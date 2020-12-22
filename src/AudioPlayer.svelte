@@ -4,6 +4,7 @@
   export function stopAll() {
     elements.forEach(element => {
       element.pause();
+      element.currentTime = 0;
     });
   }
 </script>
@@ -25,7 +26,10 @@
 
   function stopOthers() {
     elements.forEach(element => {
-      if (element !== audio) element.pause();
+      if (element !== audio) {
+        element.pause();
+        element.currentTime = 0;
+      }
     });
   }
 
@@ -39,6 +43,7 @@
     text-align: center;
     font-family: 'Bebas Neue';
     font-size: 18px;
+    margin: 5px 5px;
   }
   .playing {
     background-color: white;
@@ -46,13 +51,13 @@
 </style>
 
 
-<button class:playing={!paused} on:click|once={ audio.play() }> 
+<button class:playing={!paused} on:click= { audio.play() }> 
   {title}
   <!-- svelte-ignore a11y-media-has-caption -->
   <audio
     bind:this={audio}
     bind:paused 
-    on:play={stopOthers}
+    on:play={ stopOthers }
     {src}>
   </audio>
 </button>

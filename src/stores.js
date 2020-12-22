@@ -17,3 +17,9 @@ export const alarmStatus = writable(storedStatus);
 alarmStatus.subscribe(val => {
   localStorage.setItem("alarmStatus", val === 'Save' ? 'Save' : 'Reset')
 })
+
+const storedGogginsTalk = localStorage.getItem("gogginsTalk");
+export const gogginsTalk = writable(storedGogginsTalk);
+gogginsTalk.subscribe(val => {
+  localStorage.setItem("gogginsTalk", val)
+})
