@@ -4,7 +4,7 @@
   import sounds from './gogginsSoundBites.json'
 
   let date = new Date();
-  let audio, goggins;
+  let audio, goggins, count;
   let alarm = false;
   let hour = ['00','01','02','03','04','05','06','07','08','09','10','11','12','13','14',
               '15','16','17','18','19','20','21','22','23']
@@ -24,7 +24,7 @@
   } 
 
   const countdown = (() => {
-    let counter = 10;
+    let counter = 16;
     return () => {
       counter--;
       return counter;
@@ -34,8 +34,8 @@
   onMount (() => {
     const interval = setInterval(() => {
       date = new Date();
-      const count = countdown();
       if (alarmTime == currentTime) {
+        count = countdown();
         audio.play();
         alarm = true;
       }
@@ -106,8 +106,8 @@
   <!-- svelte-ignore a11y-media-has-caption -->
   <audio bind:this={audio} src={"../assets/sounds/THEBOATS.mp3"}/>
   <!-- svelte-ignore a11y-media-has-caption -->
-  <audio bind:this={goggins} src={"../assets/sounds/No Days Off.mp3"}/>
-
+  <audio bind:this={goggins} src={`../assets/sounds/${$gogginsTalk}`}/>
+  
   <select bind:value={$alarmHour} {disabled}> 
     <option value="" disabled selected>Hr</option>
       {#each hour as h}

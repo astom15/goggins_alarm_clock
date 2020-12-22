@@ -59,22 +59,22 @@
 	<div class='soundboard'> 
 		<AudioPlayer 
 			title="Look At Yourself."
-			src="../assets/sounds/Look At Yourself.mp3"/>
+			src="../assets/sounds/LookAtYourself.mp3"/>
 		<AudioPlayer 
 			title="No Days Off."
-			src="../assets/sounds/No Days Off.mp3"/>
+			src="../assets/sounds/NoDaysOff.mp3"/>
 		<AudioPlayer 
 			title="Embrace The Hate."
 			src="../assets/sounds/Haters.mp3"/>
 		<AudioPlayer 
 			title="Show Up Every Day."
-			src="../assets/sounds/Show Up Every Day.mp3"/>
+			src="../assets/sounds/ShowUpEveryDay.mp3"/>
 		<AudioPlayer 
 			title="You're Never Done."
-			src="../assets/sounds/Never Done.mp3"/>
+			src="../assets/sounds/NeverDone.mp3"/>
 		<AudioPlayer 
 			title="Dog Mentality."
-			src="../assets/sounds/Dog Mentality.mp3"/>
+			src="../assets/sounds/DogMentality.mp3"/>
 	</div>
 	
 </main>
