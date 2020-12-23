@@ -61,23 +61,41 @@
 	</div>
 	<div class='soundboard' > 
 		<AudioPlayer 
-			title="Look At Yourself."
+			title="Look At Yourself"
 			src="../assets/sounds/LookAtYourself.mp3"/>
 		<AudioPlayer 
-			title="No Days Off."
+			title="No Days Off"
 			src="../assets/sounds/NoDaysOff.mp3"/>
 		<AudioPlayer 
-			title="Embrace The Hate."
+			title="Outwork God's Plan"
+			src="../assets/sounds/OutworkGodsPlan.mp3"/>	
+		<AudioPlayer 
+			title="Dog Mentality"
+			src="../assets/sounds/DogMentality.mp3"/>
+		<AudioPlayer 
+			title="Not For Everybody"
+			src="../assets/sounds/NotForEverybody.mp3"/>
+		<AudioPlayer 
+			title="Embrace The Hate"
 			src="../assets/sounds/Haters.mp3"/>
 		<AudioPlayer 
-			title="Show Up Every Day."
+			title="Show Up Every Day"
 			src="../assets/sounds/ShowUpEveryDay.mp3"/>
 		<AudioPlayer 
-			title="You're Never Done."
+			title="You're Never Done"
 			src="../assets/sounds/NeverDone.mp3"/>
 		<AudioPlayer 
-			title="Dog Mentality."
-			src="../assets/sounds/DogMentality.mp3"/>
+			title="Theres An Epidemic"
+			src="../assets/sounds/TheresAnEpidemic.mp3"/>		
+		<AudioPlayer 
+			title="The New Norm"
+			src="../assets/sounds/TheNewNorm.mp3"/>		
+		<AudioPlayer 
+			title="Merry F'n Christmas"
+			src="../assets/sounds/MerryFnChristmas.mp3"/>		
+		<AudioPlayer 
+			title="The Quitting Mind"
+			src="../assets/sounds/TheQuittingMind.mp3"/>
 	</div>
 
 </main>
