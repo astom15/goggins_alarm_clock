@@ -37,17 +37,18 @@
 
 <style>
   button {
-    width: 130px;
-    height: 50px;
+    width: 150px;
+    height: 70px;
     background-color: #bc9542;
     text-align: center;
     font-family: 'Bebas Neue';
-    font-size: 18px;
+    font-size: 22px;
     margin: 5px 5px;
   }
   .playing {
     background-color: white;
   }
+  
 </style>
 
 

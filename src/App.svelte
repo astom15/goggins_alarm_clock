@@ -32,10 +32,14 @@
 		place-content: center;
 		max-width: 960px;
 	}
-
+	
 	.stopAudio {
 		align-self: flex-start;
 		margin-left: 100px;
+	}
+	
+	.hidden {
+		display: none;
 	}
 
 	@media (min-width: 640px) {
@@ -51,12 +55,11 @@
 	<Clock/>
 	<Alarm/>
 	<div class='stopAudio'> 
-		<button on:click={stopAll}>
+		<button on:click={ stopAll }>
 			Stop Audio
 		</button>
 	</div>
-
-	<div class='soundboard'> 
+	<div class='soundboard' > 
 		<AudioPlayer 
 			title="Look At Yourself."
 			src="../assets/sounds/LookAtYourself.mp3"/>
@@ -76,6 +79,5 @@
 			title="Dog Mentality."
 			src="../assets/sounds/DogMentality.mp3"/>
 	</div>
-	
-</main>
 
+</main>

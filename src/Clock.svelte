@@ -45,7 +45,7 @@
 
 <style>
   .clockContainer {
-		width: 800px;
+		width: 900px;
 		height: 400px;
 		display: flex;
 		border-radius: 15px;
@@ -55,7 +55,7 @@
 	
 	h1 {
 		font-family: 'Bebas Neue';
-		font-size:70px;
+		font-size:100px;
 		text-transform: uppercase;
 		line-height: .5;
 		color: #bc9542;
@@ -63,7 +63,7 @@
   }
   .date {
     font-family: 'Bebas Neue';
-		font-size:50px;
+		font-size:70px;
 		text-transform: uppercase;
 		line-height: .5;
 		color: #bc9542;
@@ -82,7 +82,7 @@
 	.time {
 		color:  rgb(243, 217, 217);
 		font-family: 'Bebas Neue';
-		font-size: 120px;
+		font-size: 150px;
 		place-content: center;
 		place-items: center;
 		display: flex;

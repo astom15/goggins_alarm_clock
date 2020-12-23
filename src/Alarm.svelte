@@ -65,6 +65,7 @@
     width: 400px;
     height: 100px;
     place-content: center space-evenly;
+    margin-top: 50px;
   }
 
   select {
@@ -99,6 +100,8 @@
   select:disabled {
     background-color: black;
   }
+
+
 </style>
 
 
@@ -128,3 +131,4 @@
   </select>
   <button on:click={handleSave}> {$alarmStatus} </button>
 </div>
+
